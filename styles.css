@@ -1,3 +1,36 @@
 html * {
-	color: blue;
 }
+
+h1, h2, h3 {
+	border: 2px solid blue;
+	padding: 10px;
+	width: 250px;
+}
+
+#bumps {
+	margin: 50px;
+}
+
+p {
+	margin: 10px;
+}
+
+footer {
+	text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+table {
+	font-family: Helvetica;
+}
+
+td {
+	font-style: italic;
+}
+
+
+
+	
