@@ -30,3 +30,25 @@ table {
 td {
 	font-style: italic;
 }
+
+.common {
+	color: green;
+	background-color: lemonchiffon;
+}
+
+.rare {
+	color: red;
+	background-color: lavender;
+}
+
+#logo{
+	border: 1em solid darkslateblue;
+}
+
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: indigo;
+}
