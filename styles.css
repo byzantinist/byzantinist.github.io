@@ -20,11 +20,11 @@ header {
 	text-align: center;
 }
 
-#backgroundlogo {
+#multiplelogo {
 	background-image: url('http://www.usrowing.org/wp-content/uploads/2016/06/usr-logo.svg');
 }
 
-body {
+.onelogo {
 	background-image: url('http://www.usrowing.org/wp-content/uploads/2016/06/usr-logo.svg');
 	background-position: right top;
 	background-repeat: no-repeat;
