@@ -1,6 +1,3 @@
-html * {
-}
-
 h1, h2, h3 {
 	border: 2px solid blue;
 	padding: 10px;
@@ -23,7 +20,12 @@ header {
 	text-align: center;
 }
 
-table {
+#backgroundlogo {
+	background-image: url('http://www.usrowing.org/wp-content/uploads/2016/06/usr-logo.svg');
+}
+
+table * {
+	border: 2px solid black;
 	font-family: Helvetica;
 }
 
@@ -41,14 +43,21 @@ td {
 	background-color: lavender;
 }
 
-#logo{
-	border: 1em solid darkslateblue;
-}
-
 a:link{
 	color: blue;
 }
 
 a:visited{
 	color: indigo;
+}
+
+#logo{
+	border: 1em solid darkslateblue;
+}
+
+@media screen and (max-width: 500px) {
+	 .longtext {
+	 	font-size: 50%;
+	 	color: black;
+	 }
 }
