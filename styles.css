@@ -24,6 +24,13 @@ header {
 	background-image: url('http://www.usrowing.org/wp-content/uploads/2016/06/usr-logo.svg');
 }
 
+body {
+	background-image: url('http://www.usrowing.org/wp-content/uploads/2016/06/usr-logo.svg');
+	background-position: right top;
+	background-repeat: no-repeat;
+
+}
+
 table * {
 	border: 2px solid black;
 	font-family: Helvetica;
